@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="produtos_clientes.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Tabelas com CSS</h1>
+
+    <h2>01:Lista de produtos</h2>
+    <table>
+        <!--titulo pra tabela-->
+        <caption>Produtos encontrados</caption>
+<!--nomes-->
+         <tread>
+            <tr>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Categoria</th>
+            </tr>
+         </tread>
+<!--informações -->
+         <tbody>
+            <tr>
+                <td>Celular</td>
+                <td>2.000,00</td>
+                <td>Eletronico</td>
+            </tr>
+            <tr>
+                <td>Computador</td>
+                <td>3.000,00</td>
+                <td>Eletronico</td>
+            </tr>
+            <tr>
+                <td>Tablet</td>
+                <td>2.000,00</td>
+                <td>Eletronico</td>
+            </tr>
+         </tbody>
+<!--fim-->
+         <tfoot>
+            <tr>
+                <td>Dados extraidos em 23/10/2025</td>
+            </tr>
+         </tfoot>
+    </table>
+<!--------------------------------------------------------------------->
+    <h2>02:Tabela de clientes</h2>
+    <table>
+        <caption>Cadastro de clientes</caption>
+        <thead>
+            <tr>
+            <th colspan="4">CLIENTES</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Código</th>
+                <th rowspan="2">Nome</th>
+                <th colspan="2">Documentos</th>
+            </tr>
+            <tr>
+                <th>RG</th>
+                <th>CPF</th>
+            </tr>
+        </thead>
+        <!--informações-->
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Joao da Silva</td>
+                <td>00.000.000-00</td>
+                <td>000.000.000-00</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Joao de Souza</td>
+                <td>00.000.000-00</td>
+                <td>000.000.000-00</td>
+            </tr>
+        </tbody>
+    </table>
+<!--------------------------------------------------------------------->
+    <h2>03:Tabela de fidelidade</h2>
+    <table>
+        <caption>Clientes</caption>
+        <thead>
+            <tr>
+            <th colspan="4">Sorvetes</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Código</th>
+                <th rowspan="2">Nome</th>
+                <th colspan="2">Documentos</th>
+            </tr>
+            <tr>
+                <th>RG</th>
+                <th>CPF</th>
+            </tr>
+        </thead>
+        <!--informações-->
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Joao da Silva</td>
+                <td>00.000.000-00</td>
+                <td>000.000.000-00</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Joao de Souza</td>
+                <td>00.000.000-00</td>
+                <td>000.000.000-00</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+
+</html>

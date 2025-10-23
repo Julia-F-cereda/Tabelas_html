@@ -1,0 +1,11 @@
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: 1000px;
+}
+th {
+  background-color: #d0489e;
+}
+td{
+    background-color: rgb(237, 152, 220);
+}

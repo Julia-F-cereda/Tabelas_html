@@ -1,0 +1,16 @@
+{
+  "name": "tabelas_html",
+  "version": "1.0.0",
+  "description": "Arquivo para criação de tabelas",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tabelas",
+    "inputs",
+    "planilha"
+  ],
+  "author": "Julia Cereda",
+  "license": "ISC"
+}
